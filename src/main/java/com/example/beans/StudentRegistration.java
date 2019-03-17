@@ -6,7 +6,7 @@ import java.util.List;
 public class StudentRegistration {
     private List<Student> studentRecords;
     private static StudentRegistration stdregd = null;
-    private StudentRegistration(){
+    public StudentRegistration(){
     studentRecords = new ArrayList<Student>();
     }
     public static StudentRegistration getInstance() {
